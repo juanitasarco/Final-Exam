@@ -1,0 +1,7 @@
+C:\Users\Juasa\Source\Repos\Biblioteca.Api1\Biblioteca.Api\obj\Debug\net6.0\Biblioteca.Api.csproj.AssemblyReference.cache
+C:\Users\Juasa\Source\Repos\Biblioteca.Api1\Biblioteca.Api\obj\Debug\net6.0\Biblioteca.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juasa\Source\Repos\Biblioteca.Api1\Biblioteca.Api\obj\Debug\net6.0\Biblioteca.Api.AssemblyInfoInputs.cache
+C:\Users\Juasa\Source\Repos\Biblioteca.Api1\Biblioteca.Api\obj\Debug\net6.0\Biblioteca.Api.AssemblyInfo.cs
+C:\Users\Juasa\Source\Repos\Biblioteca.Api1\Biblioteca.Api\obj\Debug\net6.0\Biblioteca.Api.csproj.CoreCompileInputs.cache
+C:\Users\Juasa\Source\Repos\Biblioteca.Api1\Biblioteca.Api\obj\Debug\net6.0\Biblioteca.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Juasa\Source\Repos\Biblioteca.Api1\Biblioteca.Api\obj\Debug\net6.0\Biblioteca.Api.MvcApplicationPartsAssemblyInfo.cache

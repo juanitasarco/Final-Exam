@@ -1,0 +1,31 @@
+﻿@page "/pagina1clase"
+<h3>Juanita Sarmiento</h3>
+
+<MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="OnButtonClicked" >Delete</MudButton>
+<MudButton Variant="Variant.Filled" Color="Color.Dark" OnClick="OnGenerarAlerta" >Generar Notificacion</MudButton>
+<MudButton Variant="Variant.Filled" Color="Color.Secondary" OnClick="OnActualizarDato" >Actualizar Dato</MudButton>
+
+@code {
+    [Inject] private IDialogService DialogService { get; set; }
+    [Inject] private ISnackbar SnackBarService { get; set; }
+    string state = "Message box hasn't been opened yet";
+    private async void OnButtonClicked()
+    {
+        bool? result = await DialogService.ShowMessageBox(
+            "Clase Programacion Nuevas Tecnologias", 
+            "Si quieres borrar pierde", 
+            yesText:"Delete!", cancelText:"No borre");
+        state= result==null ? "No borre" : "Borrado :/";
+        StateHasChanged();
+    }
+
+    private async void OnGenerarAlerta()
+    {
+        SnackBarService.Add("No sea bobo", Severity.Warning);
+    }
+
+    private async void OnActualizarDato()
+    {
+        SnackBarService.Add("Actualizado", Severity.Success);
+    }
+}
